@@ -39,8 +39,8 @@ def register_validation():
     conn.commit()
     return "User registered sucessfully"
 
-if __name__=='__main__':
-    app.run(debug=True)
+# if __name__=='__main__':
+#     app.run(debug=True)
 
 
 
