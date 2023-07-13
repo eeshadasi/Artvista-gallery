@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/painting.css">
+    <title>Painting</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <img class="image" src="{{url_for('static',filename='images/pic2.jpg')}}">
+            <a class="navbar-brand" href="#">ArtVista</a>
+            
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="{{url_for('signup')}}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="{{url_for('login')}}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li ><a href="{{url_for('home')}}">Home</a></li>
+              <li class="active"><a href="{{url_for('painting')}}">Paintings</a></li>
+
+            </ul>
+          </div>
+        </nav>
+    <div class="gallery">
+    <div class="content">
+        <img src="{{url_for('static',filename='images/download4.webp')}}">
+        <h3>$100</h3>
+        <ul>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </ul>
+        <button class="buy1">BuyNow</button>
+    </div>
+    <div class="content">
+        <img src="{{url_for('static',filename='images/download.jpg')}}">
+        <h3>$130</h3>
+        <ul>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+        </ul>
+        <button class="buy1">BuyNow</button>
+    </div>
+    <div class="content">
+        <img src="{{url_for('static',filename='images/download1.jpg')}}">
+        <h3>$550</h3>
+        <ul>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+        </ul>
+        <button class="buy1">BuyNow</button>
+    </div>
+    <div class="content">
+        
+        <img src="{{url_for('static',filename='images/download2.jpg')}}">
+        <h3>$470</h3>
+        <ul>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+        </ul>
+        <button class="buy1">BuyNow</button>
+    </div>
+    <div class="content">
+        
+        <img src="{{url_for('static',filename='images/dwnload3.jpg')}}">
+        <h3>$120</h3>
+        <ul>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </ul>
+        <button class="buy1">BuyNow</button>
+    </div>
+    <div class="content">
+        
+        <img src="{{url_for('static',filename='images/download 4.jpg')}}">
+        <h3>$100</h3>
+        <ul>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </ul>
+        <button class="buy1">BuyNow</button>
+        </div>
+        <div class="content">
+        
+            <img src="{{url_for('static',filename='images/downlaod 8.jpg')}}">
+            <h3>$145</h3>
+            <ul>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </ul>
+            <button class="buy1">BuyNow</button>
+        </div>
+        <div class="content">
+        
+            <img src="{{url_for('static',filename='images/downlaod 10.jpg')}}">
+            <h3>$345</h3>
+            <ul>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+            </ul>
+            <button class="buy1">BuyNow</button>
+        </div>
+        <div class="content">
+        
+            <img src="{{url_for('static',filename='images/download 5.jpg')}}">
+            <h3>$169</h3>
+            <ul>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </ul>
+            <button class="buy1">BuyNow</button>
+        </div>
+        <div class="content">
+        
+        <img src="{{url_for('static',filename='images/download 6.jpg')}}">
+        <h3>$189</h3>
+        <ul>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </ul>
+        <button class="buy1">BuyNow</button>
+        </div>
+        <div class="content">
+        
+            <img src="{{url_for('static',filename='images/download 7.jpg')}}">
+            <h3>$176</h3>
+            <ul>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </ul>
+            <button class="buy1">BuyNow</button>
+            </div>
+            <div class="content">
+        
+                <img src="{{url_for('static',filename='images/download2.jpg')}}">
+                <h3>$75</h3>
+                <ul>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                </ul>
+                <button class="buy1">BuyNow</button>
+                </div>
+                <div class="content">
+        
+                    <img src="{{url_for('static',filename='images/download 9.jpg')}}">
+                    <h3>$456</h3>
+                    <ul>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star  checked"></i>
+                        <i class="fa fa-star"></i>
+                    </ul>
+                    <button class="buy1">BuyNow</button>
+                    </div>
+                    <div class="content">
+        
+                        <img src="{{url_for('static',filename='images/download 11.jpg')}}">
+                        <h3>$345</h3>
+                        <ul>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                        </ul>
+                        <button class="buy1">BuyNow</button>
+                        </div>
+            
+
+        
+    
+</div>
+   
+</body>
+</html>
